@@ -1,4 +1,4 @@
-package com.zslin.utils;
+package com.zid.utils;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -19,7 +19,7 @@ import java.util.*;
  * 该类实现了将一组对象转换为Excel表格，并且可以从Excel表格中读取到一组List对象中
  * 该类利用了BeanUtils框架中的反射完成
  * 使用该类的前提，在相应的实体对象上通过ExcelReources来完成相应的注解
- * Created by 钟述林 393156105@qq.com on 2016/10/29 0:15.
+ * Created by 9901 on 2020/06/29 0:15.
  */
 public class ExcelUtil {
     private static ExcelUtil eu = new ExcelUtil();

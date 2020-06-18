@@ -1,13 +1,9 @@
-package com.zslin.dto;
+package com.zid.dto;
 
-import com.zslin.utils.ExcelResources;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.logging.FileHandler;
+import com.zid.utils.ExcelResources;
 
 /**
- * Created by 钟述林 393156105@qq.com on 2016/10/28 22:19.
+ * Created by 9901 on 2020/06/28 22:19.
  */
 public class WebDto {
 

@@ -1,7 +1,7 @@
-package com.zslin.controller;
+package com.zid.controller;
 
-import com.zslin.dto.WebDto;
-import com.zslin.utils.ExcelUtil;
+import com.zid.dto.WebDto;
+import com.zid.utils.ExcelUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

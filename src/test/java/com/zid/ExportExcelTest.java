@@ -1,7 +1,7 @@
-package com.zslin;
+package com.zid;
 
-import com.zslin.dto.WebDto;
-import com.zslin.utils.ExcelUtil;
+import com.zid.dto.WebDto;
+import com.zid.utils.ExcelUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Created by 钟述林 393156105@qq.com on 2016/10/29 0:32.
+ * Created by 9901 on 2020/06/29 0:32.
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)

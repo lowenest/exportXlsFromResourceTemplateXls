@@ -1,13 +1,6 @@
-package com.zslin.utils;
+package com.zid.utils;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.util.IOUtils;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-import org.springframework.core.io.support.ResourcePatternResolver;
-import org.springframework.util.FileCopyUtils;
-import org.springframework.util.ResourceUtils;
 
 import java.io.*;
 
@@ -23,13 +16,13 @@ public class TemplateFileUtil {
             //获取所有匹配的文件
             InputStream inputStreams = TemplateFileUtil.class.getResourceAsStream("/excel-templates/" + tempName);
             file = File.createTempFile("xls-",".xls.tmp");
+            System.out.println(file.getPath());
             if (inputStreams==null)throw new IllegalArgumentException("stream is null");
             FileUtils.copyInputStreamToFile(inputStreams, file);
         }catch (Exception e) {
             e.printStackTrace();
         }
         InputStream is =new FileInputStream(file);
-
         if (is == null) throw new IllegalArgumentException("null found file");
         return is;
     }

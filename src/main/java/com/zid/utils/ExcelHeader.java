@@ -1,7 +1,7 @@
-package com.zslin.utils;
+package com.zid.utils;
 
 /**
- * Created by 钟述林 393156105@qq.com on 2016/10/29 0:14.
+ * Created by 9901 on 2020/06/29 0:14.
  */
 public class ExcelHeader implements Comparable<ExcelHeader>{
     /**

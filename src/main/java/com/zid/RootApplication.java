@@ -1,10 +1,10 @@
-package com.zslin;
+package com.zid;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by 钟述林 393156105@qq.com on 2016/10/28 23:38.
+ * Created by 9901 on 2020/06/28 23:38.
  */
 @SpringBootApplication
 public class RootApplication {
